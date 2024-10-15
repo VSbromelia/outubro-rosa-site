@@ -1,0 +1,152 @@
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #FDE4E4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #FF89BB;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid #FFD6E3;
+}
+
+.logo img {
+    width: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFD6E3;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+/* Seções com bordas amarelas */
+section {
+    padding: 30px;
+    background-color: #FF89BB;
+    border: 4px solid #FFD700; /* Amarelo */
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+section h1 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    color: white;
+}
+
+/* Imagens nas seções */
+section img {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* Seção Dicas */
+section.dicas h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.dicas-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dicas-container .dica {
+    text-align: center;
+    width: 200px;
+}
+
+.dicas-container .dica img {
+    width: 80px;
+    height: auto;
+}
+
+.dicas-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+/* Rodapé */
+footer {
+    background-color: #FF89BB;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #FFD700;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Faixa Rosa */
+.faixa-rosa {
+    background-color: #FF89BB;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.faixa-rosa img {
+    width: 50px;
+    height: auto;
+}
+
+footer .social-icons a img {
+    width: 40px;
+    height: 40px;
+   
+}
+
